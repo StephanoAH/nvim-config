@@ -61,11 +61,11 @@ require "bufferline".setup {
     }
 }
 
-map("n", "<leader>bl", ":BufferLineCycleNext<CR>", opt)
-map("n", "<leader>bh", ":BufferLineCyclePrev<CR>", opt)
+map("n", "bl", ":BufferLineCycleNext<CR>", opt)
+map("n", "bh", ":BufferLineCyclePrev<CR>", opt)
 
-map("n", "<leader>bL", ":BufferLineMoveNext<CR>", opt)
-map("n", "<leader>bH", ":BufferLineMovePrev<CR>", opt)
+map("n", "bL", ":BufferLineMoveNext<CR>", opt)
+map("n", "bH", ":BufferLineMovePrev<CR>", opt)
 
-map("n", "<leader>be", ":BufferLineSortByExtension<CR>", opt)
-map("n", "<leader>bd", ":BufferLineSortByDirectory<CR>", opt)
+map("n", "be", ":BufferLineSortByExtension<CR>", opt)
+map("n", "bd", ":BufferLineSortByDirectory<CR>", opt)
